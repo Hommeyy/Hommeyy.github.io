@@ -4,55 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios HTML</title>
+    <title>practica 5</title>
+    <style>
+        input[type=text]{
+            width: 100%;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            font-size: 30px;
+            border: 0;
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            border-top: 0px;
+        }
+    </style>
 </head>
-<body>
-    <h1>Formularios HTML</h1>
-    <label for="nombre">Nombre</label>
-    <input type="text" placeholder="Teclea el nombre del alumno" required><br><br>
+<body style="width: 20%;">
+    <h1>juego del gato</h1><hr>
+    <form action="">
+        <table>
+            <tr>
+                <td><input type="text" name="cuadro[]"value=O></td>
+                <td><input type="text" name="cuadro[]"value=X></td>
+                <td><input type="text" name="cuadro[]"value=O></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="cuadro[]"value=O></td>
+                <td><input type="text" name="cuadro[]"value=X></td>
+                <td><input type="text" name="cuadro[]"value=O></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="cuadro[]"value=X></td>
+                <td><input type="text" name="cuadro[]"value=X></td>
+                <td><input type="text" name="cuadro[]"value=O></td>
+            </tr>
 
-    <label for="edad">Edad:</label>
-    <input type="number" placeholder="Teclea la edad" required>
-
-    <label for="Fecha_nacimiento">Fecha de nacimiento:</label>
-    <input type="date" required><br><br>
-
-    <input type="radio" name="sexo" required> Femenino
-    <input type="radio" name="sexo" required> Masculino <br> <br>
-
-    <label for="direccion">Direccion:</label><br>
-    <textarea name="direccion" id="" cols="30" rows="10" placeholder="Teclea direccion"></textarea>
-    <br><br>
-    <label for="Escuela">Escuela:</label>
-    <select name="escuela" id="">
-        <option value="">Selecciona una escuela:</option>
-    <option value="cetis">Cetis107</option>
-    <option value="cbtis">Cbtis</option>
-    <option value="otra">otra</option>
-    </select> <br><br>
-    
-
-    <label for="materias">Materias cursadas</label><br>
-    <input type="checkbox" name="materias[]"> Fisica <br>
-    <input type="checkbox" name="materias[]"> Calculo diferencial <br>
-    <input type="checkbox" name="materias[]"> ingles <br>
-    <input type="checkbox" name="materias[]"> Programacion web <br><br>
-
-    <label for="color">Color preferido:</label>
-    <input type="color" required><br><br>
-
-    <label for="imagen_perfil">Imagen de perfil:</label>
-    <input type="file" accept="png/jpg"><br><br>
-
-    <input type="submit" value="Guardar alumno"><br><br><br>
-
-
-
-
-
-    
-    <h1>Hommey Josue Ochoa Sauceda</h1>
-
-
+        </table><br>
+        <input type="submit" value="revisar">
+        
+    </form>
+       
 </body>
 </html>
