@@ -16,70 +16,70 @@
 
     echo "<h3>Pregunta 1: (".$pregunta1.")</h3>";
 
-    if($pregunta1 == "b"){
+    if($pregunta1 == "A"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
         echo "No le sabes, la correcta es la A" . "<hr>";
     }
     echo "<h3>Pregunta 2: (".$pregunta2.")</h3>";
-    if($pregunta2 == "c"){
-        echo "Si le sabes <hr>";
-        $calificacion++;
-    }else{
-        echo "No le sabes, la correcta es la C" . "<hr>";
-    }
-    echo "<h3>Pregunta 3: (".$pregunta3.")</h3>";
-    if($pregunta3 == "b"){
+    if($pregunta2 == "B"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
         echo "No le sabes, la correcta es la B" . "<hr>";
     }
-    echo "<h3>Pregunta 4: (".$pregunta4.")</h3>";
-    if($pregunta4 == "c"){
+    echo "<h3>Pregunta 3: (".$pregunta3.")</h3>";
+    if($pregunta3 == "C"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
         echo "No le sabes, la correcta es la C" . "<hr>";
+    }
+    echo "<h3>Pregunta 4: (".$pregunta4.")</h3>";
+    if($pregunta4 == "A"){
+        echo "Si le sabes <hr>";
+        $calificacion++;
+    }else{
+        echo "No le sabes, la correcta es la A" . "<hr>";
     }
     echo "<h3>Pregunta 5: (".$pregunta5.")</h3>";
-    if($pregunta5 == "c"){
+    if($pregunta5 == "A"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
-        echo "No le sabes, la correcta es la C" . "<hr>";
+        echo "No le sabes, la correcta es la A" . "<hr>";
     }
     echo "<h3>Pregunta 6: (".$pregunta6.")</h3>";
-    if($pregunta6 == "a"){
+    if($pregunta6 == "A"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
         echo "No le sabes, la correcta es la A" . "<hr>";
     }
     echo "<h3>Pregunta 7: (".$pregunta7.")</h3>";
-    if($pregunta7 == "a"){
+    if($pregunta7 == "C"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
-        echo "No le sabes, la correcta es la A" . "<hr>";
+        echo "No le sabes, la correcta es la C" . "<hr>";
     }
     echo "<h3>Pregunta 8: (".$pregunta8.")</h3>";
-    if($pregunta8 == "c"){
+    if($pregunta8 == "C"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
         echo "No le sabes, la correcta es la C" . "<hr>";
     }
     echo "<h3>Pregunta 9: (".$pregunta9.")</h3>";
-    if($pregunta9 == "b"){
+    if($pregunta9 == "C"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
-        echo "No le sabes, la correcta es la B" . "<hr>";
+        echo "No le sabes, la correcta es la C" . "<hr>";
     }
     echo "<h3>Pregunta 10: (".$pregunta10.")</h3>";
-    if($pregunta10 == "b"){
+    if($pregunta10 == "B"){
         echo "Si le sabes <hr>";
         $calificacion++;
     }else{
